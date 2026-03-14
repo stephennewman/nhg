@@ -16,8 +16,8 @@ export function Hero() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80"
-          alt="Modern real estate development with sustainable design"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/newmanholdingsllc-L9p8DaENvRb3N35EwywXcXoL5QoE0s.png"
+          alt="Mountain peak vista symbolizing vision for future prosperity"
           className={`w-full h-full object-cover transition-transform duration-[2s] ease-out ${
             visible ? "scale-100" : "scale-110"
           }`}
