@@ -23,10 +23,12 @@ function ProcessCard({ item, index }: { item: typeof processItems[0]; index: num
       }`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
-      <span className="text-[11px] tracking-[0.15em] text-muted-foreground/40 group-hover:text-background/40 transition-colors duration-700 tabular-nums block mb-5">
-        {String(index + 1).padStart(2, "0")}
-      </span>
-      <Icon className="h-5 w-5 text-foreground/30 group-hover:text-background/40 transition-colors duration-700 mb-6" strokeWidth={1.5} />
+      <div className="flex items-start justify-between mb-6">
+        <Icon className="h-7 w-7 text-foreground/30 group-hover:text-background/40 transition-colors duration-700" strokeWidth={1.5} />
+        <span className="text-[11px] tracking-[0.15em] text-muted-foreground/40 group-hover:text-background/40 transition-colors duration-700 tabular-nums">
+          {String(index + 1).padStart(2, "0")}
+        </span>
+      </div>
       <p className="text-sm md:text-base font-light tracking-tight text-foreground/80 group-hover:text-background/80 transition-colors duration-700">
         {item.label}
       </p>

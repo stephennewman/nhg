@@ -47,7 +47,7 @@ function PrincipleCard({ principle, index }: { principle: typeof principles[0]; 
       style={{ transitionDelay: `${(index % 2) * 120}ms` }}
     >
       <div className="mb-10">
-        <Icon className="h-6 w-6 text-white/40" strokeWidth={1.5} />
+        <Icon className="h-8 w-8 text-white/40" strokeWidth={1.5} />
       </div>
       <h3 className="text-xl md:text-2xl font-extralight tracking-tight text-white mb-5 group-hover:translate-x-1 transition-transform duration-500">
         {principle.title}
