@@ -1,9 +1,10 @@
 import { Navigation } from "@/components/navigation"
 import { Hero } from "@/components/hero"
-import { ProjectsSection } from "@/components/projects-section"
+import { WhoWeAreSection } from "@/components/who-we-are-section"
 import { EditorialBreak } from "@/components/editorial-break"
-import { StudioSection } from "@/components/studio-section"
 import { ApproachSection } from "@/components/approach-section"
+import { StudioSection } from "@/components/studio-section"
+import { OurApproachSection } from "@/components/our-approach-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
@@ -12,10 +13,11 @@ export default function Page() {
     <main>
       <Navigation />
       <Hero />
-      <ProjectsSection />
+      <WhoWeAreSection />
+      <ApproachSection />
+      <OurApproachSection />
       <EditorialBreak />
       <StudioSection />
-      <ApproachSection />
       <ContactSection />
       <Footer />
     </main>

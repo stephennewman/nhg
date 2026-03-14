@@ -3,9 +3,8 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const stats = [
-  { value: "3+", label: "Core Service Areas" },
+  { value: "4", label: "Core Service Areas" },
   { value: "100%", label: "Client Focused" },
-  { value: "Jer. 29", label: "Our Foundation" },
 ]
 
 export function StudioSection() {
@@ -13,7 +12,7 @@ export function StudioSection() {
   const { ref: bodyRef, isVisible: bodyVisible } = useScrollReveal(0.1)
 
   return (
-    <section id="about" className="px-6 py-28 md:px-12 lg:px-20 md:py-36 bg-foreground text-background">
+    <section id="about" className="px-6 py-28 md:px-12 lg:px-20 md:py-36 bg-background text-foreground">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-28">
         <div
           ref={headRef}
@@ -21,10 +20,10 @@ export function StudioSection() {
             headVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <p className="text-[11px] tracking-[0.3em] uppercase text-background/40 mb-8">
+          <p className="text-[11px] tracking-[0.3em] uppercase text-muted-foreground mb-8">
             About Us
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-extralight leading-[1.15] tracking-tight text-balance">
+          <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-extralight leading-[1.15] tracking-tight text-foreground text-balance">
             Rooted in growth, stewardship, and purpose
           </h2>
         </div>
@@ -36,13 +35,13 @@ export function StudioSection() {
           }`}
         >
           <div className="flex flex-col gap-6 max-w-lg">
-            <p className="text-sm leading-[1.75] text-background/55">
+            <p className="text-sm leading-[1.75] text-muted-foreground">
               Newman Holdings and Enterprise Group is a real estate holding group specializing in
               development, project management, property management, and business consulting. We build
               upon the timeless guidance of Jeremiah 29:5–7 — to "build homes, plant gardens, and
               enjoy their fruit."
             </p>
-            <p className="text-sm leading-[1.75] text-background/55">
+            <p className="text-sm leading-[1.75] text-muted-foreground">
               By blending faith-driven purpose with innovative strategy, we transform land and
               business ventures into flourishing, future-ready investments that benefit both people
               and communities. We partner with investors and developers to align each project with
@@ -50,13 +49,13 @@ export function StudioSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 pt-10 border-t border-background/10">
+          <div className="grid grid-cols-2 gap-8 pt-10 border-t border-border">
             {stats.map((stat) => (
               <div key={stat.label}>
-                <p className="text-3xl md:text-4xl font-extralight text-background tracking-tight">
+                <p className="text-3xl md:text-4xl font-extralight text-foreground tracking-tight">
                   {stat.value}
                 </p>
-                <p className="text-[11px] tracking-[0.1em] uppercase text-background/35 mt-2">
+                <p className="text-[11px] tracking-[0.1em] uppercase text-muted-foreground/60 mt-2">
                   {stat.label}
                 </p>
               </div>

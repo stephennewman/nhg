@@ -1,17 +1,12 @@
 import Link from "next/link"
 
 const footerLinks = [
+  { label: "Who We Are", href: "#who-we-are" },
   { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ]
 
-const socialLinks = [
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Pinterest", href: "#" },
-]
 
 export function Footer() {
   return (
@@ -35,7 +30,7 @@ export function Footer() {
             Navigation
           </p>
           <div className="flex flex-col gap-3">
-            {footerLinks.map((link) => (
+            {footerLinks.slice(0, 2).map((link) => (
               <Link
                 key={link.label}
                 href={link.href}
@@ -48,21 +43,22 @@ export function Footer() {
         </div>
 
         <div className="md:col-span-2 md:col-start-11">
-          <p className="text-[11px] tracking-[0.3em] uppercase text-muted-foreground/50 mb-5">
-            Social
+          <p className="text-[11px] tracking-[0.3em] uppercase text-muted-foreground/50 mb-5 invisible">
+            &nbsp;
           </p>
           <div className="flex flex-col gap-3">
-            {socialLinks.map((link) => (
-              <a
+            {footerLinks.slice(2).map((link) => (
+              <Link
                 key={link.label}
                 href={link.href}
                 className="text-sm text-foreground/70 hover:text-foreground transition-colors duration-300"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
+
       </div>
 
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between pt-8 border-t border-border gap-4">

@@ -33,7 +33,7 @@ export function Hero() {
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            <p className="text-[11px] tracking-[0.3em] uppercase text-background/50">
+            <p className="text-sm tracking-[0.3em] uppercase text-background/60">
               Creating Solutions
             </p>
           </div>
@@ -43,10 +43,8 @@ export function Hero() {
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <h1 className="text-[clamp(2.25rem,6vw,5.5rem)] font-extralight leading-[1.05] tracking-[-0.03em] text-background text-balance">
-              For Future
-              <br className="hidden md:block" />
-              Prosperity
+            <h1 className="text-[clamp(2.25rem,6vw,5.5rem)] font-extralight leading-[1.05] tracking-[-0.03em] text-background whitespace-nowrap -ml-[0.04em]">
+              For Future Prosperity
             </h1>
           </div>
         </div>

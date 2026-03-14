@@ -7,8 +7,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Voss Architects — Contemporary Architecture & Design',
-  description: 'Award-winning architecture studio specializing in residential, cultural, and commercial projects. Shaping spaces that define how we live.',
+  title: 'Newman Holdings & Enterprise Group — Creating Solutions for Future Prosperity',
+  description: 'A purpose-driven real estate holding and consulting firm dedicated to building sustainable developments, managing high-performing properties, and guiding strategic ventures.',
 }
 
 export const viewport: Viewport = {
