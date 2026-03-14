@@ -14,7 +14,7 @@ export function ContactSection() {
           alt="Pittsburgh sunset over the river and bridge"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-foreground/70" />
+        <div className="absolute inset-0 bg-foreground/60" />
       </div>
 
       <div

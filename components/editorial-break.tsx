@@ -9,8 +9,8 @@ export function EditorialBreak() {
     <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1800&q=80"
-          alt="Modern office interior with natural light"
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1800&q=80"
+          alt="Dramatic mountain range with expansive view"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-foreground/80" />
