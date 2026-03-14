@@ -16,8 +16,8 @@ export function Hero() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&q=80"
-          alt="Modern concrete building with geometric facade"
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80"
+          alt="Modern real estate development with sustainable design"
           className={`w-full h-full object-cover transition-transform duration-[2s] ease-out ${
             visible ? "scale-100" : "scale-110"
           }`}
@@ -34,7 +34,7 @@ export function Hero() {
             }`}
           >
             <p className="text-[11px] tracking-[0.3em] uppercase text-background/50">
-              Est. 2003 — Stockholm & Copenhagen
+              Creating Solutions
             </p>
           </div>
 
@@ -44,11 +44,9 @@ export function Hero() {
             }`}
           >
             <h1 className="text-[clamp(2.25rem,6vw,5.5rem)] font-extralight leading-[1.05] tracking-[-0.03em] text-background text-balance">
-              Architecture that shapes
+              For Future
               <br className="hidden md:block" />
-              how we experience
-              <br className="hidden md:block" />
-              the world
+              Prosperity
             </h1>
           </div>
         </div>

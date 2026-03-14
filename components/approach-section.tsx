@@ -5,27 +5,27 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 const principles = [
   {
     number: "01",
-    title: "Context First",
+    title: "Real Estate Development",
     description:
-      "Every design responds to its environment. We study topography, climate, cultural context, and the rhythms of daily life before a single line is drawn.",
+      "We develop sustainable properties that foster growth and prosperity, leveraging advanced data analytics and agile coordination to stay ahead of market trends and reduce project risk.",
   },
   {
     number: "02",
-    title: "Material Honesty",
+    title: "Project Management",
     description:
-      "We let materials speak their own language. Concrete, timber, glass, stone -- each is used with respect for its inherent qualities and aging characteristics.",
+      "We oversee every stage of development — from concept and design to construction and delivery — utilizing sustainable materials and innovative methods to ensure on-time, on-budget results.",
   },
   {
     number: "03",
-    title: "Light as Material",
+    title: "Property Management",
     description:
-      "Natural light is our most important building material. We design spaces where light becomes an active, changing presence throughout the day and seasons.",
+      "Our property management division enhances long-term asset performance through proactive maintenance, tenant engagement, and smart technology integration, ensuring every property thrives financially and functionally.",
   },
   {
     number: "04",
-    title: "Enduring Design",
+    title: "Business Consulting",
     description:
-      "We reject the disposable. Every structure is conceived to age gracefully, to become more beautiful with time, and to serve generations to come.",
+      "We partner with investors and developers to identify emerging market opportunities, structure ventures creatively, and align each project with clients' goals and values for lasting returns.",
   },
 ]
 
@@ -60,7 +60,7 @@ export function ApproachSection() {
   const { ref, isVisible } = useScrollReveal(0.05)
 
   return (
-    <section id="approach" className="px-6 py-28 md:px-12 lg:px-20 md:py-36">
+    <section id="services" className="px-6 py-28 md:px-12 lg:px-20 md:py-36">
       <div
         ref={ref}
         className={`mb-20 pb-6 border-b border-border transition-all duration-700 ${
@@ -68,10 +68,10 @@ export function ApproachSection() {
         }`}
       >
         <p className="text-[11px] tracking-[0.3em] uppercase text-muted-foreground mb-3">
-          Our Philosophy
+          What We Do
         </p>
         <h2 className="text-3xl md:text-[2.75rem] font-extralight tracking-tight text-foreground">
-          Approach
+          Services
         </h2>
       </div>
 

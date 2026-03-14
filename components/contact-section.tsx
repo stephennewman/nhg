@@ -20,15 +20,15 @@ export function ContactSection() {
             Get in Touch
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-extralight leading-[1.15] tracking-tight text-balance">
-            {"Let's discuss your"}<br />next project
+            {"Let's discuss your"}<br />next venture
           </h2>
           <div className="mt-10">
             <a
-              href="mailto:studio@vossarchitects.com"
+              href="mailto:info@newmanholdingsandenterprisegroupllc.com"
               className="group inline-flex items-center gap-3 text-sm tracking-wide text-background/60 hover:text-background transition-colors duration-500"
             >
               <span className="border-b border-background/20 pb-0.5 group-hover:border-background/60 transition-colors duration-500">
-                studio@vossarchitects.com
+                info@newmanholdingsandenterprisegroupllc.com
               </span>
               <ArrowUpRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
             </a>
@@ -44,28 +44,22 @@ export function ContactSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <p className="text-[11px] tracking-[0.3em] uppercase text-background/35 mb-5">
-                Stockholm
+                Real Estate Development
               </p>
               <p className="text-sm leading-[1.75] text-background/55">
-                Strandvagen 7B<br />
-                114 56 Stockholm<br />
-                Sweden
-              </p>
-              <p className="text-sm text-background/55 mt-4">
-                +46 8 123 456 78
+                Development & Project Management<br />
+                Property Management<br />
+                Business Consulting
               </p>
             </div>
             <div>
               <p className="text-[11px] tracking-[0.3em] uppercase text-background/35 mb-5">
-                Copenhagen
+                Our Mission
               </p>
               <p className="text-sm leading-[1.75] text-background/55">
-                Bredgade 42<br />
-                1260 Copenhagen K<br />
-                Denmark
-              </p>
-              <p className="text-sm text-background/55 mt-4">
-                +45 33 12 34 56
+                Building homes, planting gardens,<br />
+                and creating lasting value<br />
+                for future prosperity.
               </p>
             </div>
           </div>

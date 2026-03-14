@@ -1,10 +1,9 @@
 import Link from "next/link"
 
 const footerLinks = [
+  { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
-  { label: "Studio", href: "#studio" },
-  { label: "Approach", href: "#approach" },
-  { label: "Journal", href: "#journal" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -23,11 +22,11 @@ export function Footer() {
             href="/"
             className="text-xs font-medium tracking-[0.3em] uppercase text-foreground"
           >
-            Voss Architects
+            Newman Holdings
           </Link>
           <p className="text-sm leading-[1.75] text-muted-foreground mt-5 max-w-xs">
-            Award-winning architecture studio based in Stockholm and Copenhagen, shaping spaces
-            across Scandinavia since 2003.
+            A real estate holding group dedicated to creating sustainable properties, providing
+            business consulting, and building communities for future prosperity.
           </p>
         </div>
 
@@ -68,10 +67,10 @@ export function Footer() {
 
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between pt-8 border-t border-border gap-4">
         <p className="text-[11px] tracking-[0.1em] text-muted-foreground/50">
-          {"Voss Architects. All rights reserved."}
+          {"Newman Holdings and Enterprise Group LLC. All rights reserved."}
         </p>
         <p className="text-[11px] tracking-[0.1em] text-muted-foreground/50">
-          Stockholm & Copenhagen
+          Building for Future Prosperity
         </p>
       </div>
     </footer>

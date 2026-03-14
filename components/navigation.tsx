@@ -5,10 +5,9 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 
 const navLinks = [
+  { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
-  { label: "Studio", href: "#studio" },
-  { label: "Approach", href: "#approach" },
-  { label: "Journal", href: "#journal" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -42,7 +41,7 @@ export function Navigation() {
             scrolled ? "text-foreground" : "text-background"
           }`}
         >
-          Voss Architects
+          Newman Holdings
         </Link>
 
         <div className="hidden md:flex items-center gap-10">

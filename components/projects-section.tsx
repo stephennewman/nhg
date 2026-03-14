@@ -6,32 +6,32 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const projects = [
   {
-    title: "Nordheim Residence",
-    category: "Residential",
+    title: "Urban Residential Development",
+    category: "Real Estate",
     year: "2024",
-    location: "Oslo, Norway",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+    location: "Atlanta, GA",
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
   },
   {
-    title: "The Lund Pavilion",
-    category: "Cultural",
+    title: "Mixed-Use Commercial Campus",
+    category: "Development",
     year: "2023",
-    location: "Lund, Sweden",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=1200&q=80",
-  },
-  {
-    title: "Aalto Commercial Tower",
-    category: "Commercial",
-    year: "2023",
-    location: "Helsinki, Finland",
+    location: "Charlotte, NC",
     image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
   },
   {
-    title: "Bergman Cultural Centre",
-    category: "Cultural",
+    title: "Community Growth Initiative",
+    category: "Consulting",
+    year: "2023",
+    location: "Nashville, TN",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+  },
+  {
+    title: "Sustainable Housing Venture",
+    category: "Venture",
     year: "2022",
-    location: "Copenhagen, Denmark",
-    image: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=1200&q=80",
+    location: "Birmingham, AL",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
   },
 ]
 
@@ -95,7 +95,7 @@ export function ProjectsSection() {
       >
         <div>
           <p className="text-[11px] tracking-[0.3em] uppercase text-muted-foreground mb-3">
-            Selected Work
+            Our Portfolio
           </p>
           <h2 className="text-3xl md:text-[2.75rem] font-extralight tracking-tight text-foreground">
             Projects
