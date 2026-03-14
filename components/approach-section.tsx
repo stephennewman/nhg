@@ -71,7 +71,7 @@ export function ApproachSection() {
           alt="Aerial view of Pittsburgh"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-foreground/70" />
+        <div className="absolute inset-0 bg-foreground/50" />
       </div>
 
       <div className="relative z-10 px-6 py-28 md:px-12 lg:px-20 md:py-36">
