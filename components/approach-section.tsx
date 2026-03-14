@@ -69,15 +69,15 @@ export function ApproachSection() {
         <img
           src="/andreas-gabler-XEW_Wd4240c-unsplash.jpg"
           alt="Mountain landscape"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-foreground/50" />
       </div>
 
-      <div className="relative z-10 px-6 py-28 md:px-12 lg:px-20 md:py-36">
+      <div className="relative z-10 px-6 pt-28 pb-16 md:px-12 lg:px-20 md:pt-36 md:pb-20">
         <div
           ref={ref}
-          className={`mb-20 pb-6 border-b border-white/10 transition-all duration-700 ${
+          className={`mb-10 pb-6 border-b border-white/10 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -88,7 +88,11 @@ export function ApproachSection() {
             Services
           </h2>
         </div>
+      </div>
 
+      <div className="relative z-10 min-h-[20vh]" />
+
+      <div className="relative z-10 px-6 pb-28 md:px-12 lg:px-20 md:pb-36">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10">
           {principles.map((principle, index) => (
             <PrincipleCard key={principle.number} principle={principle} index={index} />
