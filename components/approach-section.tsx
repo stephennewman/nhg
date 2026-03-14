@@ -67,8 +67,8 @@ export function ApproachSection() {
     <section id="services" className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/tyler-rutherford-5981bsjJLXU-unsplash.jpg"
-          alt="Aerial view of Pittsburgh"
+          src="/andreas-gabler-XEW_Wd4240c-unsplash.jpg"
+          alt="Mountain landscape"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-foreground/50" />
