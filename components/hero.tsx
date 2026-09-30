@@ -16,8 +16,8 @@ export function Hero() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/newmanholdingsllc-L9p8DaENvRb3N35EwywXcXoL5QoE0s.png"
-          alt="Mountain peak vista symbolizing vision for future prosperity"
+          src="/newmanholdings_hero.png"
+          alt="Lighthouse beam cutting through a storm over rough seas"
           className={`w-full h-full object-cover transition-transform duration-[2s] ease-out ${
             visible ? "scale-100" : "scale-110"
           }`}
