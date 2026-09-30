@@ -18,7 +18,7 @@ export function Hero() {
         <img
           src="/newmanholdings_hero.png"
           alt="Lighthouse beam cutting through a storm over rough seas"
-          className={`w-full h-full object-cover transition-transform duration-[2s] ease-out ${
+          className={`w-full h-full object-cover object-[16%_center] transition-transform duration-[2s] ease-out ${
             visible ? "scale-100" : "scale-110"
           }`}
         />
